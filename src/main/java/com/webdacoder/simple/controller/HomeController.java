@@ -18,6 +18,9 @@ public class HomeController {
     public String checkPort(){
         return "8080";
     }
-
+    @GetMapping("/active")
+    public String checkActiveApp(){
+        return "active";
+    }
 
 }
